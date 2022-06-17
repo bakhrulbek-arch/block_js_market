@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.set {
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(179, 174, 174);
+    transition: 2s ease-out;
+
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+.blc_product {
+    margin: 20px auto;
+
+    width: 285px;
+    height: 500px;
+
+    border: 2px solid #0000007d;
+    border-radius: 15px;
+
+    position: relative;
+
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.blc_pr_blc {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blc_pr_t {
+    width: 260px;
+    height: 300px;
+    margin-left: 2px;
+}
+
+.blc_pr_t_t {
+    width: 270px;
+    height: 260px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.liked {
+    z-index: 5;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    width: 150px;
+    height: 150px;
+
+    background-image: url('../icon/favorite_likeD.svg');
+    transition: .3s ease;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.55s opacity, 0.55s visibility ease;
+}
+
+.liked_act {
+    opacity: 1;
+    visibility: visible;
+}
+
+.blc_pr_t_b {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.h2_pr_t_b {
+    font-size: 22px;
+}
+
+.blc_pr_t_t_c {
+    height: 90%;
+    overflow: hidden;
+}
+
+.img_phone {
+    height: 100%;
+
+    background-position: center;
+    background-size: contain;
+}
+
+.blc_icon {
+    width: 100%;
+    height: 30%;
+
+    margin-top: 15px;
+}
+
+.blc_icon img {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.blc_icon img:hover {
+    filter: invert(75%);
+}
+
+.icon_auto {
+    width: 25px;
+    cursor: pointer;
+}
+
+.icon_auto:hover {
+    filter: invert(75%);
+}
+
+.blc_pr_t_t_r {
+    width: 10%;
+    height: 100%;
+}
+
+.favorite, .share {
+    width: 25px;
+}
+
+/* второй часть блока */
+/* нижняя часть */
+.blc_pr_b_t h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.blc_pr_b_t {
+    margin: 15px 0;
+}
+
+.blc_pr_b_t p {
+    width: 190px;
+    border-radius: 15px;
+
+    text-align: center;
+    font-size: 18px;
+
+    color: #fff;
+    background-color: #EB1537;
+}
+
+.blc_pr_b_c {
+    margin-bottom: 25px;
+}
+
+.blc_pr_b_c p {
+    font-size: 18px;
+}
+
+.blc_pr_b_b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pr_b_b_btn {
+    width: 165px;
+    height: 35px;
+    border-radius: 20px;
+
+    font-size: 20px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.pr_b_b_rating {
+    width: 35px;
+    cursor: pointer;
+}
+
+.pr_b_b_rating:hover {
+    filter: invert(50%);
+}
+
+.blc_open {
+    width: 35px;
+    height: 35px;
+
+    /* background-color: transparent; */
+    color: black;
+
+    font-size: 22px;
+    margin: 15px auto;
+    border-radius: 35px;
+
+    cursor: pointer;
+
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+}
+
+.pr_b_b_btn:hover, .blc_open:hover {
+    box-shadow: 0px 0px 8px 1px grey;
+}
+
+.share_clc {
+    width: 35px;
+    height: 200px;
+    position: relative;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.55s opacity, 0.55s visibility ease;
+}
+
+.act_share {
+    opacity: 1;
+    visibility: visible;
+}
+
+.set_img_share {
+    width: 33px;
+    margin-bottom: 5px;
+
+    cursor: pointer;
+}
+
+/* @media only screen and (max-width: 1148px) {
+    
+}
+
+@media only screen and (max-height: 999px) {} */
