@@ -72,7 +72,7 @@ for (let i = 0; i <= 4; i++) {
         }, 50)
         setTimeout(() => {
             liked.classList.remove('liked_act')
-        }, 600)
+        }, 2000)
     }
 
     //share click
@@ -261,7 +261,7 @@ blc_open.onclick = () => {
         }, 50)
         setTimeout(() => {
             liked.classList.remove('liked_act')
-        }, 600)
+        }, 2000)
     }
 
     //share click
