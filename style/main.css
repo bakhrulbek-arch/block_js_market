@@ -36,6 +36,10 @@
     background-color: #fff;
 }
 
+.blc_product:hover {
+    transform: scale(1.02);
+}
+
 .blc_pr_blc {
     width: 90%;
     margin: 0 auto;
